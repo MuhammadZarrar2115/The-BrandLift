@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- SEO Meta Tags -->
+<title>Brandlift Agency | Digital Marketing, SEO & Creative Solutions</title>
+<meta name="description" content="Brandlift Agency helps businesses grow their online presence through SEO, content writing, and graphic design. We create digital strategies that drive engagement and real results.">
+<meta name="keywords" content="Brandlift Agency, digital marketing agency, SEO services, content writing, graphic design, social media marketing, branding solutions, website design, marketing agency">
+<meta name="author" content="Brandlift Agency">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="logo.png">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="Brandlift Agency | Your Digital Growth Partner">
+<meta property="og:description" content="Boost your online visibility with Brandlift Agency’s SEO, content, and creative services.">
+<meta property="og:image" content="https://brandliftagency.online/logo.png">
+<meta property="og:url" content="https://brandliftagency.online/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Brandlift Agency">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Brandlift Agency | Digital Marketing Partner">
+<meta name="twitter:description" content="Grow your brand online with SEO, content writing, and design services by Brandlift Agency.">
+<meta name="twitter:image" content="https://brandliftagency.online/logo.png">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://brandliftagency.online/">
+
+
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <title>Brand Lift | Home</title>
+
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9f9ff;
+      color: #1a1a2e;
+    }
+
+
+.hero {
+  padding: 3rem 0 !important; /* reduce big empty space */
+}
+
+    /* Navbar */
+    .navbar {
+      padding: 0.8rem 0;
+    }
+
+    .navbar-brand {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: #1a1a2e !important;
+      letter-spacing: 0.5px;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      color: #1a1a2e !important;
+      margin: 0 0.6rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: #696cff !important;
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background-color: #696cff;
+      border: none;
+      transition: 0.3s ease;
+      font-weight: 500;
+    }
+
+    .btn-primary:hover {
+      background-color: #5a5ee0;
+      box-shadow: 0 4px 10px rgba(105,108,255,0.3);
+    }
+
+    .btn-outline-primary {
+      border: 1px solid #696cff;
+      color: #696cff;
+      transition: 0.3s ease;
+    }
+
+    .btn-outline-primary:hover {
+      background-color: #5a5ee0;
+      color: #ffffff;
+    }
+
+    .hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 3rem;
+      opacity: 0;
+      transform: translateY(50px);
+      animation: slideUp 0.8s ease forwards 0.3s;
+    }
+
+main {
+  margin-top: 80px !important;
+  margin-bottom: 0 !important;
+}
+
+.hero {
+  padding: 3rem 0 !important;
+}
+
+.anipara {
+  font-size: 1.1rem;
+  color: #555;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #696cff;
+  width: 0;
+  display: inline-block;
+  animation: typing 3s steps(35, end) forwards, blink 0.8s step-end infinite alternate;
+  animation-delay: 0.3s;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
+    /* Simple underline for next text */
+    .hero p.simple-text {
+      font-size: 1.1rem;
+      color: #555;
+      display: inline-block;
+      border-bottom: 2px solid #696cff;
+      padding-bottom: 3px;
+    }
+
+    .hero-img {
+      border-radius: 15px;
+      opacity: 0;
+      transform: scale(0.95);
+      animation: fadeIn 1s ease forwards 1.5s;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    /* Animations */
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero {
+        text-align: center;
+        padding: 5rem 1rem;
+      }
+
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+
+      .anipara {
+        white-space: normal;
+        border: none;
+        animation: none;
+      }
+
+      .hero p.simple-text {
+        border: none;
+      }
+    }
+
+/* Counter Section */
+.counter-section {
+  background-color: #f9f9ff;
+  padding: 5rem 0;
+}
+
+.section-line {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #696cff, transparent);
+  opacity: 0.3;
+}
+
+.counter-box h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #696cff;
+  font-size: 2.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.counter-box p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+/* Subtle hover animation */
+.counter-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.counter-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(105,108,255,0.1);
+}
+
+/* Responsive tuning */
+@media (max-width: 768px) {
+  .counter-box h2 {
+    font-size: 2rem;
+  }
+  .counter-box p {
+    font-size: 0.9rem;
+  }
+}
+
+
+/* Section title separator lines */
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::before,
+.section-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background-color: #696cff;
+}
+
+.section-title::before {
+  left: -70px;
+}
+
+.section-title::after {
+  right: -70px;
+}
+
+/* Services Section */
+.services-section {
+  background-color: #f9f9ff;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(105,108,255,0.08);
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(105,108,255,0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: #696cff;
+  background: rgba(105,108,255,0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  line-height: 80px;
+  display: inline-block;
+}
+
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #ffffff;
+  border-top: 2px solid #e5e5ff;
+  border-bottom: 2px solid #e5e5ff;
+}
+
+.section-title {
+  color: #1a1a2e;
+  font-family: 'Poppins', sans-serif;
+}
+
+.testimonial {
+  background-color: #f9f9ff;
+  border-left: 4px solid #696cff;
+}
+
+.testimonial-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #696cff;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.testimonial-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(105,108,255,0.25);
+}
+
+/* Carousel Controls */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #696cff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+@media (max-width: 768px) {
+  .testimonials-section {
+    text-align: center;
+  }
+
+  .testimonial {
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #ffffff;
+  border-top: 2px solid #e5e5ff;
+  border-bottom: 2px solid #e5e5ff;
+}
+
+.contact-form {
+  background-color: #f9f9ff;
+  border-left: 4px solid #696cff;
+}
+
+.form-label {
+  color: #1a1a2e;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-control {
+  border: 1px solid #d0d0ff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #696cff;
+  box-shadow: 0 0 6px rgba(105, 108, 255, 0.3);
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-primary {
+  background-color: #696cff;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5a5ee0;
+  box-shadow: 0 4px 10px rgba(105, 108, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 2rem 1rem;
+  }
+}
+
+
+
+.footer-section {
+  background-color: #f8f9ff;
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #444;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #696cff;
+  padding-left: 5px;
+}
+
+.text-primary {
+  color: #696cff !important;
+}
+
+hr {
+  border-top: 1px solid #d6d6ff;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  .footer-section {
+    text-align: center;
+  }
+  .footer-section ul {
+    padding-left: 0;
+  }
+}
+
+.about-section {
+  background-color: #ffffff;
+  color: #444;
+  font-family: 'Inter', sans-serif;
+}
+
+.about-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.about-section h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.about-img {
+  border-radius: 15px;
+  max-width: 90%;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(105, 108, 255, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-section {
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  .about-img {
+    margin-bottom: 2rem;
+  }
+}
+
+
+  </style>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Brandlift Agency",
+  "url": "https://brandliftagency.online.com",
+  "logo": "https://brandliftagency.online.com/logo.png",
+  "sameAs": [
+    "https://www.facebook.com/brandliftagency",
+    "https://www.instagram.com/brandliftagency",
+    "https://www.linkedin.com/company/brandliftagency"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+1 300 1234567",
+    "contactType": "Customer Service",
+    "areaServed": "US"
+  }
+}
+</script>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary mb-3" href="#">Brand Lift Agency</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a href="#" class="btn btn-primary rounded-pill px-4">Get Started</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero -->
+  <section class="hero container mt-0">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <p class="anipara">Boost your online presence with us ___ .</p>
+        <h1 class="mb-3">Your Online Marketing Partner</h1>
+        <p class="simple-text">Helping you grow smarter, faster, and stronger in the digital world.</p>
+        <div class="mt-4">
+          <a href="#" class="btn btn-primary me-2">Get in Touch</a>
+          <a href="#" class="btn btn-outline-primary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 text-center mt-5 mt-lg-0">
+  <img 
+    src="main.jpg" 
+    alt="Marketing Partner" 
+    class="hero-img img-fluid"
+  >
+</div>
+    </div>
+  </section>
+
+<!-- Counter Section -->
+<section class="counter-section text-center py-5 mt-4">
+  <div class="container position-relative">
+    <!-- Top Separator Line -->
+    <hr class="section-line mb-5">
+
+    <div class="row g-4">
+      <div class="col-6 col-md-3">
+        <div class="counter-box">
+          <h2 class="counter" data-target="120">0</h2>
+          <p>Projects Completed</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="counter-box">
+          <h2 class="counter" data-target="85">0</h2>
+          <p>Happy Clients</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="counter-box">
+          <h2 class="counter" data-target="15">0</h2>
+          <p>Active Services</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="counter-box">
+          <h2 class="counter" data-target="5">0</h2>
+          <p>Years Experience</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Separator Line -->
+    <hr class="section-line mt-5">
+  </div>
+</section>
+
+
+<!-- About Us Section -->
+<section class="about-section py-5" id="about">
+  <div class="container">
+    <div class="row align-items-center gy-4">
+      
+      <!-- Left Side Image -->
+      <div class="col-lg-6 text-center">
+        <img 
+          src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800" 
+          alt="Team Working Together" 
+          class="img-fluid rounded shadow-sm about-img">
+      </div>
+
+      <!-- Right Side Content -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold text-primary mb-3">About Us</h2>
+        <h4 class="fw-semibold mb-3" style="color:#1a1a2e;">We’re passionate about helping brands grow.</h4>
+        <p class="text-muted mb-4">
+          At <strong>Brandlift Agency</strong>, we specialize in boosting your brand’s visibility through result-driven digital strategies. 
+          Whether it’s SEO, social media marketing, or creative content — we craft solutions that help your business rise above the noise.
+        </p>
+        <p class="text-muted mb-4">
+          Our team of experts combines innovation with strategy to ensure your online presence translates into real growth. 
+          With Brandlift Agency, you don’t just get a service — you get a growth partner.
+        </p>
+
+        <a href="#" class="btn btn-primary px-4 me-2">Learn More</a>
+        <a href="#" class="btn btn-outline-primary px-4">Our Work</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section class="services-section py-5 mt-5" id="services">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4 section-title">Our Services</h2>
+    <p class="text-muted mb-5">We provide top-notch digital solutions to elevate your brand presence.</p>
+
+    <div class="row g-4">
+      <!-- SEO -->
+      <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+          <div class="service-icon mb-3">
+            <i class="bi bi-graph-up-arrow"></i>
+          </div>
+          <h5 class="fw-semibold">SEO Optimization</h5>
+          <p class="text-muted">Improve your site visibility and boost your Google ranking with our proven SEO strategies.</p>
+          <a href="#" class="btn btn-outline-primary rounded-pill px-4 mt-2">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Content Writing -->
+      <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+          <div class="service-icon mb-3">
+            <i class="bi bi-pencil-square"></i>
+          </div>
+          <h5 class="fw-semibold">Content Writing</h5>
+          <p class="text-muted">Engage your audience with high-quality, SEO-friendly content crafted to convert.</p>
+          <a href="#" class="btn btn-outline-primary rounded-pill px-4 mt-2">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Graphic Design -->
+      <div class="col-md-4">
+        <div class="service-card p-4 h-100">
+          <div class="service-icon mb-3">
+            <i class="bi bi-brush"></i>
+          </div>
+          <h5 class="fw-semibold">Graphic Designing</h5>
+          <p class="text-muted">Bring your brand to life with creative visuals that make a lasting impression.</p>
+          <a href="#" class="btn btn-outline-primary rounded-pill px-4 mt-2">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section class="testimonials-section py-5 mt-5">
+  <div class="container">
+    <div class="row align-items-center g-4">
+
+      <!-- Left: Text -->
+      <div class="col-lg-6">
+        <h2 class="fw-bold mb-3 section-title">What Our Clients Say</h2>
+        <p class="text-muted mb-4">
+          Our clients trust us to deliver results that elevate their brand visibility and growth. 
+          Here’s what they have to say about working with <strong>Brand Lift Agency</strong>.
+        </p>
+
+        <div class="testimonial p-4 rounded-3 shadow-sm">
+          <p class="fst-italic text-secondary mb-3">
+            “Brand Lift transformed our online strategy. Within three months, our traffic doubled and conversions increased significantly. The team’s professionalism and creativity are unmatched.”
+          </p>
+          <h6 class="fw-semibold mb-0">— Sarah Johnson</h6>
+          <small class="text-muted">Marketing Director, NovaTech</small>
+        </div>
+      </div>
+
+      <!-- Right: Carousel -->
+      <div class="col-lg-6 text-center">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" class="testimonial-img" alt="Client 1">
+              <h6 class="mt-3 fw-semibold">Emily Carter</h6>
+              <p class="text-muted small">CEO, Creative Labs</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" class="testimonial-img" alt="Client 2">
+              <h6 class="mt-3 fw-semibold">James Brown</h6>
+              <p class="text-muted small">Founder, VisionEdge</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" class="testimonial-img" alt="Client 3">
+              <h6 class="mt-3 fw-semibold">Ava Mitchell</h6>
+              <p class="text-muted small">Marketing Lead, Startify</p>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://randomuser.me/api/portraits/men/17.jpg" class="testimonial-img" alt="Client 4">
+              <h6 class="mt-3 fw-semibold">Liam Roberts</h6>
+              <p class="text-muted small">CMO, BlueWave Agency</p>
+            </div>
+
+          </div>
+
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section py-5 mt-5" id="contact">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold section-title">Get in Touch</h2>
+      <p class="text-muted">We’d love to hear from you. Fill out the form below and our team will get back to you shortly.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <form class="contact-form p-4 rounded-3 shadow-sm">
+          <div class="row g-3">
+            <!-- Name -->
+            <div class="col-md-6">
+              <label for="name" class="form-label fw-semibold">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6">
+              <label for="email" class="form-label fw-semibold">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="example@gmail.com" required>
+            </div>
+
+            <!-- Phone -->
+            <div class="col-md-6">
+              <label for="phone" class="form-label fw-semibold">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="+92 300 0000000" required>
+            </div>
+
+            <!-- Address -->
+            <div class="col-md-6">
+              <label for="address" class="form-label fw-semibold">Address</label>
+              <input type="text" id="address" class="form-control" placeholder="Your address">
+            </div>
+
+            <!-- Message -->
+            <div class="col-12">
+              <label for="message" class="form-label fw-semibold">Message</label>
+              <textarea id="message" rows="5" class="form-control" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <!-- Button -->
+            <div class="col-12 text-center mt-3">
+              <button type="submit" class="btn btn-primary rounded-pill px-5 py-2">Send Message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer-section mt-5 pt-5 pb-3">
+  <div class="container">
+    <div class="row gy-4">
+      <!-- Brand Info -->
+      <div class="col-lg-4 col-md-6">
+        <h4 class="fw-bold text-primary mb-3">Brandlift Agency</h4>
+        <p class="text-muted mb-4">
+          We’ve got your back as your online marketing partner where we’re all about making waves in the digital scene. Let’s kickstart your digital marketing journey.
+        </p>
+        <p class="text-muted small mb-0">2025 © <strong>Brandlift Agency</strong>. All rights reserved.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold text-primary mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="#" class="footer-link">Home</a></li>
+          <li class="mb-2"><a href="#about" class="footer-link">About</a></li>
+          <li class="mb-2"><a href="#services" class="footer-link">Services</a></li>
+          <li class="mb-2"><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-4 col-md-6">
+        <h5 class="fw-bold text-primary mb-3">Contact Info</h5>
+        <ul class="list-unstyled text-muted">
+          <li class="mb-2"><i class="bi bi-geo-alt-fill text-primary me-2"></i> 1500 N GRANT ST STE R <br>Denver, CO - 80203</li>
+          <li class="mb-2"><i class="bi bi-telephone-fill text-primary me-2"></i> +1 8882950570</li>
+          <li class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> info@brandliftagency.online</li>
+          <li class="mb-2"><i class="bi bi-envelope-fill text-primary me-2"></i> sales@brandliftagency.online</li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="mt-4 mb-3">
+
+    <div class="text-center">
+      <p class="small text-muted mb-0">
+        Developed by <strong class="text-primary">Brandlift Agency</strong>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const counters = document.querySelectorAll('.counter');
+  const speed = 150;
+
+  const animateCounters = () => {
+    counters.forEach(counter => {
+      const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+        const increment = target / speed;
+
+        if (count < target) {
+          counter.innerText = Math.ceil(count + increment);
+          setTimeout(updateCount, 20);
+        } else {
+          counter.innerText = target;
+        }
+      };
+      updateCount();
+    });
+  };
+
+  const section = document.querySelector('.counter-section');
+  const observer = new IntersectionObserver(entries => {
+    if (entries[0].isIntersecting) {
+      animateCounters();
+      observer.unobserve(section);
+    }
+  }, { threshold: 0.4 });
+  observer.observe(section);
+</script>
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
